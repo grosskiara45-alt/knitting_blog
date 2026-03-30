@@ -31,5 +31,9 @@ This project is created using:
 
 03/24: In this screenshot, I have set up the basic HTML for my header and navigation menu for users to get to the main pages.
 
+![Project Screenshot](/images/html_currentwipcode.png)
+
+03/30: In this screenshot, I have set up the HTML for my first blog page. On here, you will notice updates to the head, header, and footer.
+
 ## Inspiration
 03/30: Nimble Needles (https://nimble-needles.com/about-me/)
