@@ -32,3 +32,4 @@ This project is created using:
 03/24: In this screenshot, I have set up the basic HTML for my header and navigation menu for users to get to the main pages.
 
 ## Inspiration
+03/30: Nimble Needles (https://nimble-needles.com/about-me/)
