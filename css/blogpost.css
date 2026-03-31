@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+    padding: 0; 
+}
+.favicon{
+    min-width: 50px;
+    max-width: 50px;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    white-space: nowrap;
+}
+
+.title{
+    margin-left: 20px;
+    flex-grow: 1;
+}
+
+.menu ul{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li{
+    margin-left: 20px;
+    white-space: nowrap;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.menu-footer{
+    margin-left: 20px;
+
+}
+.socials{
+    display: flex;
+    flex-direction: column;
+}
+
+.copyright{
+    display: flex;
+    justify-content: center;
+}
