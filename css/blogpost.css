@@ -1,3 +1,5 @@
+/* Header */
+
 body{
     margin: 0;
     padding: 0; 
@@ -6,6 +8,15 @@ body{
     min-width: 50px;
     max-width: 50px;
 }
+
+button{
+    background-color: #2187B0;
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+
 .header{
     display: flex;
     align-items: center;
@@ -19,6 +30,7 @@ body{
     flex-grow: 1;
 }
 
+
 .menu ul{
     display: flex;
     list-style: none;
@@ -30,7 +42,51 @@ body{
     margin-left: 20px;
     white-space: nowrap;
 }
+/* Main */
 
+.main-content{
+    display: flex;
+    margin: 20px;
+    gap: 20px;
+}
+
+.text-link {
+    color: #2187B0;
+    font-weight: bold;
+}
+
+.heading{
+    padding: 10px 0px;
+    background: #2187B0;
+    background: linear-gradient(90deg, rgba(33, 135, 176, 1) 0%, rgba(0, 73, 102, 1) 100%);
+    color: white;
+    text-align: center;
+}
+
+article{
+    flex: 3;
+}
+
+article p{
+    text-indent: 20px;
+}
+
+aside{
+    flex: 1;
+}
+
+aside h3{
+    padding: 10px 0px;
+}
+
+aside p{
+    padding-bottom: 10px;
+}
+
+video{
+    padding: 10px 0px;
+}
+/* Footer */
 .footer{
     display: flex;
     align-items: center;

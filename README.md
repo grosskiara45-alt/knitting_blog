@@ -6,7 +6,7 @@
 * [Project-Status](#project-status)
 * [Code-Examples](#code-examples)
 * [Inspiration](#inspiration)
-* [Future-Goals] (#future-goals)
+* [Future-Goals](#future-goals)
 
 ## Introduction
 Overview:
@@ -29,6 +29,8 @@ This project is created using:
 
 03/30 and 3/31: On the 30th, I added one blog posts, continued to revise the HTML pages and added a favicon logo for the site. I also started working on the CSS with sketching out wireframes, finding more blog inspirations, and working on the header.
 
+04/07: Today, I added another blog post as well as more images/videos and CSS to the overall site. I also researched image carousels and sliders
+
 ## Code Examples
 ![Project Screenshot](/images/html_homeheadercode.png)
 
@@ -41,6 +43,7 @@ This project is created using:
 ## Inspiration
 03/30: Nimble Needles (https://nimble-needles.com/about-me/)
 03/31: Modern Daily Knitting - love the footer for this site (https://www.moderndailyknitting.com/community/)
+04/07: Your Knitting Teacher Alice - love her about page layout (https://www.learntoknitonline.com/knittingteacheralice)
 
 ## Future Goals
 03:30: As I continue to learn JavaScript, I would love to incorporate a way for people to like/comment on blogs, search current topics, and have a robust contact form

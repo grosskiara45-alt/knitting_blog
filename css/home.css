@@ -1,3 +1,5 @@
+/* Header */
+
 body{
     margin: 0;
     padding: 0; 
@@ -6,6 +8,23 @@ body{
     min-width: 50px;
     max-width: 50px;
 }
+
+.heading-button{
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+
+button{
+    background-color: #2187B0;
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+
 .header{
     display: flex;
     align-items: center;
@@ -31,7 +50,55 @@ body{
     margin-left: 20px;
     white-space: nowrap;
 }
+/* Main */
 
+.main-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.heading{
+    text-align: center;
+    background: #2187B0;
+    background: linear-gradient(90deg, rgba(33, 135, 176, 1) 0%, rgba(0, 73, 102, 1) 100%);
+    color: white;
+    padding: 20px 0px;
+}
+
+.heading h2{
+    margin: 20px;
+    padding: 10px;
+}
+
+.heading p{
+    margin: 20px;
+    padding: 10px;  
+}
+
+.heading2{
+    margin-top: 20px;
+}
+.recent-blogs{
+    margin: 20px;
+    display: flex;
+}
+
+.blog{
+    flex: 1;
+    padding: 10px;
+}
+
+.blog a, p{
+    padding: 10px 0px;
+}
+
+.blog img{
+    aspect-ratio: 1 / 1;
+}
+
+/* Footer */
 .footer{
     display: flex;
     align-items: center;
