@@ -31,6 +31,10 @@ This project is created using:
 
 04/07: Today, I added another blog post as well as more images/videos and CSS to the overall site. I also researched image carousels and sliders
 
+04/21: After learning new CSS techniques and JS tools, I have decided to adjust the layout of my website by a lot by removing the contact page and will add a 'comment section' to each blog post instead.
+
+04/26: Today, I have focused on adjusting the homepage's grid as well a adding back basic CSS to the site. I have a lot of adjustments to make to the other pages but I'm at a good spot with the homepage!
+
 ## Code Examples
 ![Project Screenshot](/images/html_homeheadercode.png)
 
