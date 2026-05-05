@@ -84,6 +84,7 @@ main{
 
 .aside img{
     width: 40%;
+    border-radius: 50%;
 }
 
 .aside-blurb{
@@ -92,6 +93,31 @@ main{
 
 .aside-blurb p{
     margin: 1rem 0;
+}
+
+div.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+div.gallery-item{
+    border: 1px solid gray;
+    width: calc(20% - 20px);
+    text-align: center;
+}
+
+div.gallery-item:hover{
+    border: 2px solid #0A122A;
+}
+
+div.gallery-item img{
+    width: 100%;
+    height: auto;
+}
+
+div.gallery-item h5 {
+  padding: 5px;
 }
 
 /* Format Video Controls later */
@@ -136,6 +162,7 @@ button{
         align-items: flex-start;
         gap: 20px;
     }
+    
 
     .blog-post{
         flex: 3;
@@ -147,6 +174,20 @@ button{
     }
 
     .aside img{
-        width: 100%
+        width: 100%;
     }
+}
+
+@media only screen and (max-width: 768px) {
+  div.gallery-item {
+    width: calc(50% - 20px);
+    margin: 10px 0;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  div.gallery-item {
+    width: calc(100% - 20px);
+    margin: 10px 0;
+  }
 }
